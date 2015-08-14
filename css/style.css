@@ -1,0 +1,128 @@
+.top{
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 70px;
+  position: absolute;
+  background-color: #33BB98;
+  padding-top: 0px;
+  text-align: center;
+}
+.middle{
+  top: 50px;
+  left: 0px;
+  bottom: 70px;
+  right: 0px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10px;
+  overflow-y: auto;
+  height: auto;
+  text-align: center;
+
+}
+p{
+  text-indent: 10%;
+}
+.bottom{
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 70px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#logo{
+  position: relative;
+  min-height: 1px;
+  float: left;
+  text-align: center;
+  padding-left: 5px;
+
+}
+.image{
+  width: 80px;
+  height: 120px;
+  border: 0;
+  page-break-inside: avoid;
+  max-width: 100px !important;
+  position: relative;
+  float: left;
+}
+.top_mid{
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+  left: 15px;
+  top: 0px;
+}
+.material-icons {
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    word-wrap: normal;
+    font-feature-settings: "liga";
+}
+.material-icon{
+  font-size: 24px;
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  word-wrap: normal;
+  font-feature-settings: "liga";
+}
+body{
+  font-family: 'pacifico', cursive;
+  background-color: rgba(22, 47, 0, 0.2);
+}
+h1{
+  /*color: rgb(199, 248, 190);*/
+  color: rgb(210, 190, 120);
+  font-family: 'Fjalla One', sans-serif;
+}
+button{
+  float: right;
+  background-color: #33BB98;
+  border-style: none;
+  font-size: 3rem;
+  color: #11FF76;
+}
+.icon{
+  font-size: 150%;
+}
+.small{
+  position: relative;
+  min-height: 1px;
+  width: 33.29%;
+  float: left;
+  text-align: center;
+  padding-top: 20px;
+}
+a{
+  color: white;
+  cursor: context-menu;
+  text-decoration: none;
+}
+
+@media all and (min-width: 50px)   {  h1  { font-size:0.8em;  } }
+@media all and (min-width: 100px)  {  h1  { font-size:0.9em;  } }
+@media all and (min-width: 200px)  {  h1  { font-size:1.14em;  } }
+@media all and (min-width: 300px)  {  h1  { font-size:1.15em;  } }
+@media all and (min-width: 400px)  {  h1  { font-size:1.4em;  } }
+@media all and (min-width: 500px)  {  h1  { font-size:1.8em;  } }
+@media all and (min-width: 600px)  {  h1  { font-size:1.9em;  } }
+@media all and (min-width: 700px)  {  h1  { font-size:2.0em;  } }
+@media all and (min-width: 800px)  {  h1  { font-size:2.1em;  } }
+@media all and (min-width: 900px)  {  h1  { font-size:2.1em;  } }
+@media all and (min-width: 1000px) {  h1  { font-size:2.2em;  } }
+@media all and (min-width: 300px)  {  #logo  { width: 1.2rem; } }
