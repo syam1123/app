@@ -9,14 +9,11 @@
   text-align: center;
 }
 .middle{
-  top: 50px;
+  top: 70px;
   left: 0px;
   bottom: 70px;
   right: 0px;
   position: absolute;
-  margin-top: 20px;
-  margin-left: 10%;
-  margin-right: 10px;
   overflow-y: auto;
   height: auto;
   text-align: center;
@@ -39,6 +36,7 @@ p{
   float: left;
   text-align: center;
   padding-left: 5px;
+  z-index: 10;
 
 }
 .image{
@@ -61,7 +59,7 @@ p{
     font-family: "Material Icons";
     font-weight: normal;
     font-style: normal;
-    font-size: 40px;
+    font-size: 25px;
     line-height: 1;
     letter-spacing: normal;
     text-transform: none;
@@ -82,8 +80,9 @@ p{
   font-feature-settings: "liga";
 }
 body{
-  font-family: 'pacifico', cursive;
+  font-family: 'sans', cursive;
   background-color: rgba(22, 47, 0, 0.2);
+  overflow: hidden;
 }
 h1{
   /*color: rgb(199, 248, 190);*/
@@ -106,7 +105,8 @@ button{
   width: 33.29%;
   float: left;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 15px;
+
 }
 a{
   color: white;
